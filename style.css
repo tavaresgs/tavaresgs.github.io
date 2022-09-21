@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#perfil{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background-image: url(./assets/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+#perfil > img{
+    width: 250px;
+    height: 240px;
+    left: 11.38%;
+    right: 47.97%;
+    top: 0%;
+    bottom: 44.75%;
+    border-radius: 41px;
+}
+
+.sociais{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
