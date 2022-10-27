@@ -3,42 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+ 
 
-#perfil{
-    display: flex;
-    align-items: center;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+body{
+    width: 100vw;
+    height: 100vh;
     background-image: url(./assets/fundo.png);
     background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#perfil{
+    background-repeat: repeat;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    
 }
 
-#perfil > img{
-    width: 250px;
-    height: 240px;
-    left: 11.38%;
-    right: 47.97%;
-    top: 0%;
-    bottom: 44.75%;
-    border-radius: 41px;
-}
-
-.sociais{
+.perfil{
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.perfil > img{
+    width: 240px;
+    height: 250px;
+    border-radius: 40px;
+}
+
+.perfil > a{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#linha{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+
+nav > a > img{
+    width: 50px;
+    height: 50px;
 }

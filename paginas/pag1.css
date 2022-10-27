@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/fundo.png);
+    background-size: cover;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.curso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curso img{
+    width: 300px;
+    height: 200px;
+}
+
+.linguagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.linguagens-icones{
+    width: 200px;
+}
+
+#barra{
+    width: 500px;
+}
+
+.html{
+    display: flex;
+    align-items: center;
+}
+
+.c{
+    display: flex;
+    align-items: center;
+}
+
+.c > img{
+    width: 150px;
+}
+
+.java{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    margin-top: 100px;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > a > img{
+    width: 90px;
+    height: 90px;
+}
