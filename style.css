@@ -43,7 +43,7 @@ body{
 }
 
 nav{
-    top: 0;
+    top: 5px;
     left: 0;
     position: absolute;
 }
