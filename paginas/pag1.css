@@ -41,6 +41,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    gap: 25px;
 }
 
 .linguagens-icones{
@@ -62,7 +63,7 @@ main{
 }
 
 .c > img{
-    width: 150px;
+    width: 100px;
 }
 
 .java{
@@ -70,16 +71,26 @@ main{
     align-items: center;
 }
 
-nav{
-    margin-top: 100px;
-    width: 100vw;
-    height: 10vh;
+.java > img{
+    width: 150px;
+}
+
+.cloud{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
+.cloud > img{
+    width: 100px;
+}
+
+nav{
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
 nav > a > img{
-    width: 90px;
-    height: 90px;
+    width: 50px;
+    height: 50px;
 }

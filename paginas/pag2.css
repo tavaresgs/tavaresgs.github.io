@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background-image: url(../assets/fundo.png);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+header{
+    width: 50vw;
+    margin-top: 150px;
+    margin-right: 500px;
+    float: right;
+}
+
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.git{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: underline;
+    color: white;
+}
+
+#pcss{
+    position: absolute;
+    padding: 70px 0px 0px 70px;
+}
+
+#phtml{
+    position: absolute;
+    padding: 340px 0px 0px 500px;
+}
+
+
+nav{
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+nav > a > img{
+    width: 50px;
+    height: 50px;
+}
