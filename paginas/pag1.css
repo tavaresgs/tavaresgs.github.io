@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
  
 
@@ -23,6 +26,7 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 20px;
 }
 
 .curso{
@@ -50,6 +54,30 @@ main{
 
 #barra{
     width: 500px;
+}
+
+.git{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+#logogit{
+    position: absolute;
+    left: 590px;
+    
+}
+
+#linha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diretorio > a{
+    text-decoration: none;
+    color: white;
 }
 
 .html{
