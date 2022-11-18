@@ -7,7 +7,6 @@
     font-family: 'Open Sans', sans-serif;
 
 }
- 
 
 body{
     width: 100vw;
@@ -30,7 +29,13 @@ body{
     gap:10px
 }
 
-.perfil > img{
+.perfil-topo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.perfil-topo > img{
     width: 240px;
     height: 250px;
     border-radius: 50%;
