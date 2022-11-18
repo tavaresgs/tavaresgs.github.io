@@ -46,7 +46,9 @@ body{
     color: white;
     display: flex;
     align-items: center;
+    justfy-content:center;
     text-decoration: none;
+    gap: 10px;
 }
 
 .perfil-sociais{
