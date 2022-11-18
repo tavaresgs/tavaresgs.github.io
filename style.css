@@ -48,6 +48,12 @@ body{
     align-items: center;
 }
 
+.perfil-sociais{
+    display: flex;
+    align-items: center;
+    flex-direction: Collum;
+}
+
 #linha{
     display: flex;
     justify-content: center;
