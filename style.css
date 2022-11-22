@@ -20,42 +20,48 @@ body{
     flex-direction: column;
 }
 
-.perfil{
+.perfil-sup{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 225px;
+}
+
+#foto{
+    width: 250px;
+    height: 260px;
+    border-radius: 50%;
+    border: solid white 1px;
+}
+
+.perfil-social{
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil-social > a{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.perfil-disc{
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap:10px
 }
 
-.perfil-topo{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin-left: 245px;
-}
-
-#foto{
-    width: 240px;
-    height: 250px;
-    border-radius: 50%;
-    border: solid 1px white;
-}
-
-.perfil-sociais > a{
+.perfil-sub{
     color: white;
     display: flex;
     align-items: center;
-    justfy-content:center;
-    text-decoration: none;
-    gap: 10px;
-}
-
-.perfil-sociais{
-    display: flex;
-    align-items: center;
-    flex-direction: Column;
+    justify-content: center;
 }
 
 #linha{
@@ -68,12 +74,69 @@ body{
     font-size: 20px;
 }
 
-nav{
-    top: 5px;
-    left: 0;
-    position: absolute;
+
+main{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-nav > a > img{
+
+.curso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curso img{
+    width: 200px;
+    height: 150px;
+}
+
+.linguagens{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+#barra{
+    width: 300px;
+}
+
+.diretorio{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logogit{
+   width:50px;
+   height: 50px;
+}
+
+#linha{
+    display: flex;
+    align-items: center;
+}
+
+.diretorio > a{
+    text-decoration: none;
+    color: white;
+}
+
+.linguagens-xp{
+    display: flex;
+    align-items: center;
+}
+
+.linguagens-xp > img{
     width: 50px;
-    height: 50px;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
