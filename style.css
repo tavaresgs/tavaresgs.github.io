@@ -8,6 +8,10 @@
 
 }
 
+:root{
+    --counter: 0;
+}
+
 body{
     width: 100vw;
     height: 100vh;
@@ -94,6 +98,20 @@ main{
     height: 150px;
 }
 
+h1{
+    font-size: 26px;
+}
+
+h3{
+    font-size: 14px;
+
+}
+
+#rep{
+    font-style: italic;
+    text-decoration: underline;
+}
+
 .linguagens{
     display: flex;
     align-items: center;
@@ -101,14 +119,65 @@ main{
     gap: 30px;
 }
 
-#barra{
-    width: 300px;
+.linguagens-xp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.barra-xp{
+    width: 250px;
+    height: 20px;
+}
+
+.barra{
+    height: 100%;
+    width: 95%;
+    border-radius: 12px;
+    background-color: #bb1f00;
+    animation-name: barra;
+    animation-duration: 3s;
+}
+
+@keyframes barra{
+    0%{
+        width:0%;
+    }
+    95%{
+        width: 95%;
+    }
+}
+
+.barra-java{
+    height: 100%;
+    width: 50%;
+    border-radius: 12px;
+    background-color: #bb1f00;
+    animation-name: barra-java;
+    animation-duration: 3s;
+}
+
+@keyframes barra-java{
+    0%{
+        width:0%;
+    }
+    50%{
+        width: 50%;
+    }
+}
+
+#porcentagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .diretorio{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 5px;
 }
 
 #logogit{
