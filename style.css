@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    position: fixed;
+}
+
+nav{
+    font-family: 'Merienda', cursive;
+    font-weight: 400;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#menu{
+    margin-right: 3%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#home{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#foto{
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+}
+
+#resumo{
+    width: 400px;
+}
+
+#resumo h1{
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+}
+#resumo p{
+    font-family: 'Merienda', cursive;
+    font-weight: 400;
+}
+
+#sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#sobre{
+    padding: 5%;
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+
+#habilidades{
+    width: 50%;
+    display: flex;
+    flex-direction: column ;
+    gap: 20px;
+
+}
+
+#habilidades img{
+    width: 500px;
+    
+}
+
+#sobremim{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-family: 'Merienda', cursive;
+    width: 50%;
+}
+
+#sobremim h1{
+    font-weight: 700;
+}
+#sobremim p{
+    font-weight: 400;
+}
+
+#projetos{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+}
+
+#projetos h1{
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+}
+
+#projeto{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merienda', cursive;
+    gap: 15px;
+}
+
+#projeto img{
+    width: 350px;
+}
+
+#projeto h2{
+    font-weight: 700;
+}
+#projeto p{
+    font-weight: 400;
+}
+
+#projeto a{
+    text-decoration: none;
+}
+
+#projeto a button:hover{
+    cursor: pointer;
+}
+
+#projeto button{
+    width: 146px;
+    height: 43px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007DFC;
+    font-size: 15px;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+}
